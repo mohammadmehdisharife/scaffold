@@ -1,0 +1,22 @@
+build:
+  echo "Building"
+
+clean:
+  echo "Cleaning in process."
+  sleep 1
+  tput cuu1
+  tput el 
+  echo "Cleaning in process.."
+  sleep 1
+  tput cuu1
+  tput el 
+  echo "Cleaning in process..."
+  sleep 1
+  tput cuu1
+  tput el 
+  echo "Cleaning in process...."
+  sleep 1
+  tput cuu1
+  tput el 
+  echo "Cleaning in process....."
+
