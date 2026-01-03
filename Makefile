@@ -21,4 +21,7 @@ win64:
 clean:
 	rm -rf build
 
+install:
+	mv ./build/$(TARGET) /bin/
+
 .PHONY: all build win32 win64 clean
